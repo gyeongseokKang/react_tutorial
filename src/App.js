@@ -8,5 +8,5 @@ import EventPractice from './EventPractice';
 const App = () => {
 	return <EventPractice />;
 }
-
+//git teet
 export default App;
