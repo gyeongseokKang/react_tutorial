@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Info from './Info';
+import Info from './basic_react/Info';
 
 /*
 function getRandomColor() {
