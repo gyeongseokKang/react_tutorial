@@ -1,16 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-/*
-import MyComponent from './MyComponent';
-import Counter from './Counter';
-import Say from './Say';
-import EventPractice from './EventPractice';
-import ValidationSample from './ValidationSample';
-import ScrollBox from './ScrollBox';
-import IterationSample from './IterationSample';
-*/
-import LifeCycleSample from './LifeCycleSample';
 
+import Info from './Info';
+
+/*
 function getRandomColor() {
 	return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
@@ -33,14 +26,13 @@ class App extends Component {
 		)
 	}
 }
-/*
+*/
 const App = () => {
 	return (
 		<div>
-			<ScrollBox ref={(ref) => console.log(ref, this)}></ScrollBox>
-			<button onClick={() => this.scrollBox.scrollToBottom()}>맨 밑으로</button>
+			<Info />
 		</div>
 	)
-}*/
-//git teet
+}
+
 export default App;
